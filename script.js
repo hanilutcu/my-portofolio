@@ -8,10 +8,9 @@ function myMenuFuction() {
     }
 }
 
-const body = document.querySelector("body"),
-toggleSwitch = document.getElementById("toggle-switch");
+const toggleSwitch = document.querySelector('.moon-sun'); 
+const body = document.body;
 
-toggleSwitch.addEventListener("click", ()=> {
-    body.classList.toggle("dark");
-}
-);
+toggleSwitch.addEventListener('click', () => {
+    body.classList.toggle('dark');
+});
