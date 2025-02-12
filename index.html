@@ -91,7 +91,7 @@
                                 <figcaption>
                                     <img src="hani.PNG.png" alt="" class="profile"/>
                                     <h2>Informatic Student</h2>
-                                    <p>my name is sabrina! i,m a informatic student from polman bandung</p>
+                                    <p>my name is sabrina! i,m a informatic student from polman bandung 1AEC4</p>
                                 </figcaption>
                             </figure>
                             <button class="about-me-btn">Hire Me</button>
@@ -151,37 +151,37 @@
                         <i class="uil uil-briefcase-alt"></i>
                         <h3>project 1</h3>
                         <label>rangkaian seri paralel</label>
-                        <button class="project1-btn">click here</button>
+                        <button class="project1-btn" onclick="openPDF('tugas1.pdf')">Tampilkan PDF</button>                       
                     </div>
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
-                        <h3>project 1</h3>
-                        <label>rangkaian seri paralel</label>
-                        <button class="project1-btn">click here</button>
+                        <h3>project 2</h3>
+                        <label>waiting</label>
+                       <button class="project2-btn" onclick="openImage(ab)">empty</button>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
-                        <h3>project 1</h3>
-                        <label>rangkaian seri paralel</label>
-                        <button class="project1-btn">click here</button>
+                        <h3>project 3</h3>
+                        <label>waiting</label>
+                        <button class="project3-btn">empty</button>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
-                        <h3>project 1</h3>
-                        <label>rangkaian seri paralel</label>
-                        <button class="project1-btn">click here</button>
+                        <h3>project 4</h3>
+                        <label>waiting</label>
+                        <button class="project4-btn">empty</button>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
-                        <h3>project 1</h3>
-                        <label>rangkaian seri paralel</label>
-                        <button class="project1-btn">click here</button>
+                        <h3>project 5</h3>
+                        <label>waiting</label>
+                        <button class="project5-btn">empty</button>
                     </div>
                     <div class="project-box">
                         <i class="uil uil-briefcase-alt"></i>
-                        <h3>project 1</h3>
-                        <label>rangkaian seri paralel</label>
-                        <button class="project1-btn" onclick="document.location='https://drive.google.com/file/d/1HhW7ppBGA8NCIESHfV9EJR8xGx1mpnJd'">click here</button>
+                        <h3>project 6</h3>
+                        <label>waiting</label>
+                        <button class="project6-btn">empty</button>
                     </div>
                 </div>
              </section>
@@ -248,5 +248,17 @@
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
     <script src="script.js"></script>
+    <script>
+        function openImage() {
+            const imageUrl = "hani.PNG.png"; // Ganti dengan path gambar yang ditentukan
+            window.open(imageUrl, "_blank");
+        }
+        </script>
+        <script>
+            function openPDF(pdfFile) {
+                window.open(pdfFile, "_blank"); // Membuka PDF di tab baru
+            }
+        </script>
+        
   </body>
 </html>

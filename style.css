@@ -537,6 +537,72 @@ i {
     font-weight: 500;
     transition: all 0.5 ease;
 }
+.project-container .project2-btn {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #c40101;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: all 0.5 ease;
+}.project-container .project3-btn {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #c40101;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: all 0.5 ease;
+}.project-container .project4-btn {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #c40101;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: all 0.5 ease;
+}.project-container .project5-btn {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #c40101;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: all 0.5 ease;
+}.project-container .project6-btn {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    background: #c40101;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    transition: all 0.5 ease;
+}
 .project-box::after,
 .contact-info::after{
     content: "";
@@ -555,7 +621,13 @@ i {
 .project-box:hover.project-box i,
 .project-box:hover.project-box >h3,
 .project-box:hover.project-box >label,
-.project-box:hover.project-box >.project1-btn{
+.project-box:hover.project-box >.project1-btn,
+.project-box:hover.project-box >.project2-btn,
+.project-box:hover.project-box >.project3-btn,
+.project-box:hover.project-box >.project4-btn,
+.project-box:hover.project-box >.project5-btn,
+.project-box:hover.project-box >.project6-btn
+{
     color: #fff;
     z-index: 2;
 }

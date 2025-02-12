@@ -14,3 +14,11 @@ const body = document.body;
 toggleSwitch.addEventListener('click', () => {
     body.classList.toggle('dark');
 });
+const imageUrl = "hani.PNG.png"; 
+const pdfUrl = "tugas1.pdf"; 
+
+function openPDF(pdfFile) {
+    window.open(pdfFile, "_blank"); // Membuka PDF di tab baru
+}
+
+
